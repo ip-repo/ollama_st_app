@@ -2,6 +2,8 @@
 
 Streamlit app that allows you to chat with local Ollama models and save the chat history automatically to a json file `chats.json`.
 
+![stapp](https://github.com/user-attachments/assets/5bc859ea-b100-46a7-a519-1c83f1bc8694)
+
 ## Features
 * Use's `pyttsx3` engine to speak a selected message.
 * Use's `pyperclip` to copy a message to clipboard.
