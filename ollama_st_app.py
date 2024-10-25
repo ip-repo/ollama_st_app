@@ -338,7 +338,6 @@ class OllamaStApp:
 					st.session_state.messages = []	
 		st.session_state.refresh_sidebar = not st.session_state.refresh_sidebar
 		self.save_all_chats()
-		# Trigger rerun
 		st.session_state.refresh_sidebar = not st.session_state.refresh_sidebar
 	
 	def create_new_chat(self, chat_name: str, system_message: str, description: str) -> None:
@@ -479,7 +478,7 @@ class OllamaStApp:
 				else:
 					st.sidebar.error("Chat name already taken or empty.")
 
-		st.session_state.refresh_sidebar = not st.session_state.refresh_sidebar  # Trigger rerun
+		st.session_state.refresh_sidebar = not st.session_state.refresh_sidebar  
 		if st.session_state.flag:
 			st.session_state.flag = False
 			st.rerun()
