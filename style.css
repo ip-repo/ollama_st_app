@@ -1,0 +1,68 @@
+/* Set the background color of the Streamlit app */
+.stApp {
+    background-color: rgb(12, 14, 13);  
+}
+
+/* Set the text direction to left-to-right */
+body {
+    direction: ltr;
+}
+
+/* Set the color of all h1 headers */
+h1 {
+    color: #FF4B4B;
+}
+/* Style for user messages */
+.user-message {
+    color: white;  /* Text color */
+    background-color: rgb(12, 14, 13);  /* Background color */
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+/* Style for assistant messages */
+.assistant-message {
+    color: #FF4B4B;
+    background-color: rgb(12, 14, 13);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style for system messages */
+.system-message {
+    color: #FF4B4B;
+    background-color: rgb(12, 14, 13);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Set the background color of the Streamlit header */
+[data-testid="stHeader"] {
+    background-color: rgb(12, 14, 13);
+}
+
+/* Set the width and background color of the Streamlit sidebar, and change its text color */
+[data-testid="stSidebar"]  {
+    width: 40%;
+    background-color: rgb(12, 14, 13);
+    color:#FF4B4B;
+}
+/* Set the background color of chat messages */
+[data-testid="stChatMessage"] {
+    background-color: rgb(12, 14, 13);
+}
+/* Set the background color of the chat input text area */
+[data-testid="stChatInputTextArea"] {
+    background-color: rgb(12, 14, 13);
+}
+/* Set the text color and margin for the Markdown container */
+[data-testid="stMarkdownContainer"] {
+    color:#FF4B4B;
+    margin: 0;
+}
+/* Set the background color for the bottom block container */
+[data-testid="stBottomBlockContainer"] {
+    background-color: rgb(12, 14, 13);
+}
