@@ -338,7 +338,7 @@ class OllamaStApp:
 					st.session_state.messages = []	
 		st.session_state.refresh_sidebar = not st.session_state.refresh_sidebar
 		self.save_all_chats()
-		  # Trigger rerun
+		# Trigger rerun
 		st.session_state.refresh_sidebar = not st.session_state.refresh_sidebar
 	
 	def create_new_chat(self, chat_name: str, system_message: str, description: str) -> None:
